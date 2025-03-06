@@ -29,18 +29,20 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className='flex flex-col justify-between min-h-screen'>
-          <header className='fixed flex justify-between items-center shadow-xl bg-white px-20 w-full h-20'>
-            <div className='flex items-center gap-3'>
+        <main className="flex flex-col justify-between min-h-screen">
+          <header className="fixed flex justify-between items-center shadow-xl bg-white px-20 w-full h-20">
+            <div className="flex items-center gap-3">
               <MonitorSmartphone />
-              <Link href="/" className='font-bold text-2xl'>Digital Shop</Link>
+              <Link href="/" className="font-bold text-2xl">
+                Digital Shop
+              </Link>
             </div>
             <div>
               <ShoppingCart />
             </div>
           </header>
           <div className="px-20 mt-28">{children}</div>
-          <footer className='bg-black w-full text-white flex items-center justify-center h-15'>
+          <footer className="bg-black w-full text-white flex items-center justify-center h-15">
             <p>&copy; 2025 Nima Saghi. All right reserved </p>
           </footer>
         </main>
