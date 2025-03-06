@@ -1,7 +1,7 @@
 import React from 'react';
 
 function page() {
-  return <div>test</div>;
+  return <div>dynamic page</div>;
 }
 
 export default page;
