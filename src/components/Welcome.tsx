@@ -13,7 +13,7 @@ function welcome() {
         <h1 className="text-2xl font-bold text-gray-800">Digital Shop</h1>
       </div>
       <Button asChild className="mt-6">
-        <Link href="/Products">Go to Products</Link>
+        <Link href="/products">Go to Products</Link>
       </Button>
     </div>
   );
