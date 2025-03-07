@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function layout() {
-    return (
-        <div>for public layout</div>
-    )
+  return <div>for public layout</div>;
 }
 
-export default layout
+export default layout;
